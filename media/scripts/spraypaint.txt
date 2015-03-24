@@ -1,0 +1,122 @@
+/**********************************************************************/
+/**                       SPRAYPAINT MOD                             **/
+/**                LUA CODE BY THUZTOR & PEANUTS (RJ)                **/
+/**                   TEXTURES BY THUZTOR                            **/
+/**                                                                  **/
+/**                    OFFICIAL TOPIC :                              **/
+/**                                                                  **/
+/**********************************************************************/
+
+module spraypaint
+{
+	imports
+	{
+		Base
+	}
+
+/**********************************************************************/
+/************************* Spraypaint Items ******************************/
+/**********************************************************************/
+  
+	item SpraycanWhite
+	{
+		Type				=		Drainable,
+		DisplayName			=	 	Spraycan (White),
+		Icon				=		TZ_Spraycan_White.png,
+		UseDelta			=		0.025,
+		UseWhileEquipped 	= 		false,
+		Weight				=		0.5,
+	}
+  
+	item SpraycanRed
+	{
+		Type				=		Drainable,
+		DisplayName			=	 	Spraycan (Red),
+		Icon				=		TZ_Spraycan_Red.png,
+		UseDelta			=		0.025,
+		UseWhileEquipped 	= 		false,
+		Weight				=		0.5,
+	}
+	
+	item SpraycanBlue
+	{
+		Type				=		Drainable,
+		DisplayName			=	 	Spraycan (Blue),
+		Icon				=		TZ_Spraycan_Blue.png,
+		UseDelta			=		0.025,
+		UseWhileEquipped 	= 		false,
+		Weight				=		0.5,
+	}
+	
+	item SpraycanGreen
+	{
+		Type				=		Drainable,
+		DisplayName			=	 	Spraycan (Green),
+		Icon				=		TZ_Spraycan_Green.png,
+		UseDelta			=		0.025,
+		UseWhileEquipped 	= 		false,
+		Weight				=		0.5,
+	}
+	
+	item SpraycanOrange
+	{
+		Type				=		Drainable,
+		DisplayName			=	 	Spraycan (Orange),
+		Icon				=		TZ_Spraycan_Orange.png,
+		UseDelta			=		0.025,
+		UseWhileEquipped 	= 		false,
+		Weight				=		0.5,
+	}
+	
+	item SpraycanYellow
+	{
+		Type				=		Drainable,
+		DisplayName			=	 	Spraycan (Yellow),
+		Icon				=		TZ_Spraycan_Yellow.png,
+		UseDelta			=		0.025,
+		UseWhileEquipped 	= 		false,
+		Weight				=		0.5,
+	}
+	
+	item SpraycanViolet
+	{
+		Type				=		Drainable,
+		DisplayName			=	 	Spraycan (Violet),
+		Icon				=		TZ_Spraycan_Violet.png,
+		UseDelta			=		0.025,
+		UseWhileEquipped 	= 		false,
+		Weight				=		0.5,
+	}
+	
+	item SpraycanBlack
+	{
+		Type				=		Drainable,
+		DisplayName			=	 	Spraycan (Black),
+		Icon				=		TZ_Spraycan_Black.png,
+		UseDelta			=		0.025,
+		UseWhileEquipped 	= 		false,
+		Weight				=		0.5,
+	}
+	
+	item SpraycanCyan
+	{
+		Type				=		Drainable,
+		DisplayName			=	 	Spraycan (Cyan),
+		Icon				=		TZ_Spraycan_Cyan.png,
+		UseDelta			=		0.025,
+		UseWhileEquipped 	= 		false,
+		Weight				=		0.5,
+	}
+	
+}
+/*
+	script LoadMapTextures
+  {
+    LoadTexturePage(spraypaint);
+  }
+  
+  trigger OnPreMapLoad
+  {
+  	call LoadMapTextures
+  }
+*/
