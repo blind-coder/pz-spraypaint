@@ -1,0 +1,3 @@
+version:1.7
+minVersion:31.6
+url:http://theindiestone.com/forums/index.php/topic/81-spray-paint-mod-v22a3016/

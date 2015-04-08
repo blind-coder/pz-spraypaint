@@ -1,0 +1,2 @@
+version:1.7
+url:https://raw.githubusercontent.com/blind-coder/pz-spraypaint/master/latest_version.txt
