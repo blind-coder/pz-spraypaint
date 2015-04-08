@@ -1,4 +1,3 @@
-
 local sprayBindings = {}
 
 local function addBind(name, key)

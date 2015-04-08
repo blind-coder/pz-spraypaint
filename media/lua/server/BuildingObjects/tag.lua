@@ -32,7 +32,11 @@ function Tag:create(x, y, z, north, sprite)
 		local colorInfo = ColorInfo.new(self.red, self.green, self.blue, 1.0);
 		tagTile:getSprite():setTintMod(colorInfo);
 		gridSquare:AddTileObject(tagTile);
-		tagTile:transmitCompleteItemToClients();
+		if isClient() then
+			tagTile:transmitCompleteItemToServer();
+		else
+			tagTile:transmitCompleteItemToClients();
+		end
 
 		-- Use paint, so decreasing quantity of paint in spraycan
 		self.sprayCanItem:Use();

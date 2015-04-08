@@ -1,8 +1,7 @@
 ----------------------------------------------------
---			Contextual menu for spraypaint        --
---												  --
+--          Contextual menu for spraypaint        --
+--                                                --
 ----------------------------------------------------
-
 
 spraypaintMenu = {};
 spraypaintMenu.debug = false;
@@ -13,9 +12,6 @@ if spraypaintMenu.debug then
 	SystemDisabler.setDoZombieCreation(false)
 end
 
----
---
---
 spraypaintMenu.doSpraypaintMenu = function(player, context, worldobjects)
 	print ("spraypaintMenu.doSpraypaintMenu("..tostring(player)..", "..tostring(context)..", "..tostring(worldobjects));
 	local playerInventory = getSpecificPlayer(player):getInventory();
@@ -88,10 +84,6 @@ spraypaintMenu.doSpraypaintMenu = function(player, context, worldobjects)
 	end
 end
 
-
----
---
---
 spraypaintMenu.onSpray = function(worldobjects, player, sprayCanItem, shape, sprayCan)
 	print("spraypaintMenu.onSpray");
 	if getSpecificPlayer(player):getSecondaryHandItem() ~= sprayCanItem then
@@ -111,8 +103,4 @@ spraypaintMenu.giveItem = function()
 	end
 end
 
-
----
---
---
 Events.OnFillWorldObjectContextMenu.Add(spraypaintMenu.doSpraypaintMenu);
