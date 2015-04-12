@@ -21,8 +21,8 @@ end
 print("Spraypaint adding keyBinding options");
 table.insert(keyBinding, {value="[Spraypaint]"}) -- adds a section header to keys.ini and the options screen
 addBind("Looted", 20) -- T
-addBind("Hordes!", 0)
-addBind("Not safe!", 21) -- Y
+addBind("Hordes", 0)
+addBind("NotSafe", 21) -- Y
 addBind("Safe", 0)
 addBind("Safehouse", 0)
 
