@@ -1,0 +1,12 @@
+-- Spraycan mod Polish translation by Geras
+Items_PL = {
+	DisplayName_Spraycan_(Black) = "Farba w sprayu - czarna",
+	DisplayName_Spraycan_(Blue) = "Farba w sprayu - niebieska",
+	DisplayName_Spraycan_(Cyan) = "Farba w sprayu - turkusowa",
+	DisplayName_Spraycan_(Green) = "Farba w sprayu - zielona",
+	DisplayName_Spraycan_(Orange) = "Farba w sprayu - pomarañczowa",
+	DisplayName_Spraycan_(Red) = "Farba w sprayu - czerwona",
+	DisplayName_Spraycan_(Violet) = "Farba w sprayu - fioletowa",
+	DisplayName_Spraycan_(White) = "Farba w sprayu - bia³a",
+	DisplayName_Spraycan_(Yellow) = "Farba w sprayu - ¿ó³ta"
+}
